@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+<body>
+    <div class="container">
+        <div class="mx-auto mt-5" style="max-width: 700px;">
+            <div class="input-group mp-3">
+                <input type="text" name="" id="username" placeholder="Enter Your name" class="form-control">
+                <button class="btn text-white btn-info" id="adduser">Add User</button>
+            </div>
+            <!-- data display -->
+            <div class="mt-5">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body"></tbody>
+                </table>
+            </div>
+          
+        </div>
+    </div>
+    <!--container end-->
+
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
